@@ -14,13 +14,17 @@ using namespace std;
 
 int main()
 {
-	const double gallon = 15.0;
-	const double miles = 375.0; 
-	double mpg;		
+	double gallons, miles, mpg; 
 
-	mpg = miles / gallon;
+	cout << "Enter the number of gallon of gas used"; 
+	cin >> gallons; 
 
-	cout << "Miles per gallon" << mpg << endl; 
+	cout << "Enter the number of miles driven "; 
+	cin >> miles; 
+	
+	mpg = miles / gallons; 
+
+	cout << "Miles per gallon: " << mpg << endl;
 
 	return 0;
 
